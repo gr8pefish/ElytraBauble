@@ -2,6 +2,9 @@ package gr8pefish.elytrabauble.common;
 
 import gr8pefish.elytrabauble.common.lib.ModInfo;
 import gr8pefish.elytrabauble.common.proxy.IProxy;
+import gr8pefish.elytrabauble.common.registry.ItemRegistry;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -19,8 +22,20 @@ public class ElytraBauble {
     @Mod.Instance
     public static ElytraBauble instance;
 
+    //Creative Tab
+    public static final CreativeTabs creativeTab = new CreativeTabs(ModInfo.MODID) {
+        @Override
+        public ItemStack getTabIconItem() {
+            return new ItemStack(ItemRegistry.itemElytraBauble);
+        }
+    };
+
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {
+
+        //Items
+        ItemRegistry.registerItems();
+
         proxy.preInit(event);
     }
 

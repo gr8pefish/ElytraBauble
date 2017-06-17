@@ -1,1 +1,5 @@
-elytrabauble.tooltip=Elytra as a bauble!
+# Item Localizations
+item.elytrabauble:elytra_bauble.name=Elytra Bauble
+
+# Creative tab Localization
+itemGroup.elytrabauble=Elytra Bauble
