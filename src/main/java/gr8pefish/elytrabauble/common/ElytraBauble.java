@@ -36,6 +36,7 @@ public class ElytraBauble {
         //Items
         ItemRegistry.registerItems();
 
+        //Item rendering
         proxy.preInit(event);
     }
 
