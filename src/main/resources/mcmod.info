@@ -1,0 +1,14 @@
+[{
+  "modid": "elytrabauble",
+  "name": "Elytra Bauble",
+  "description": "Adds the elytra as a bauble!",
+  "version": "${version}",
+  "mcversion": "1.11.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["gr8pefish"],
+  "credits": "The usual",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}]

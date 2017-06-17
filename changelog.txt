@@ -1,0 +1,13 @@
+------------------------------------------------------
+Version 1.11.2 - 1.0.0 (versioning: major-minor-build)
+------------------------------------------------------
+Initial Creation
+
+Additions
+- Elytra as a bauble
+
+Changes
+- None
+
+Bug Fixes
+- None
